@@ -11,6 +11,7 @@ precio = 83.58
 cantidad = 5
 #decimal
 precio_cantidad = precio * cantidad
+print(Decimal(precio_cantidad))
 #diccionario
 cantantes = {
   "pop": "Michael Jackson",
@@ -52,5 +53,5 @@ print(alumnos)
 print()
 
 #Exercise 9: Use reassignment to add an element to your tuple.
-saga_novelas = saga_novelas + ("Una dama decidida", )
+saga_novelas += ("Una dama decidida", )
 print(saga_novelas)
